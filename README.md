@@ -72,7 +72,7 @@ Tu es libre d’utiliser, de modifier et de distribuer le standard, tant que la 
 
 - Site officiel : [https://dustethic.org](https://dustethic.org)  
 - Standard : [https://dustethic.org/standard-dustethic](https://dustethic.org/standard-dustethic)  
-- Bluesky : [https://bsky.app/profile/dustethic.org](https://bsky.app/profile/dustethic.org)
+- Bluesky : [https://bsky.app/profile/dustethic.org](https://bsky.app/profile/dustethic.bsky.social)
 
 ---
 
