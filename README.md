@@ -1,108 +1,58 @@
-# [2025-10-08] 🧩 DustEthic – Vers un Standard Ouvert
+# [2026-06-11] DustEthic - Un standard ouvert pour les micro-dons crypto
 
-> 🇫🇷 Ce document est la version francophone officielle du projet DustEthic.  
-> 🇬🇧 For the English summary and open philosophy, scroll to the section below.
+> Version francophone officielle du projet DustEthic.
+> English summary at the bottom of this file.
 
----
+## Le projet
 
-## 🌍 Vision
+DustEthic est une initiative ouverte, non lucrative et expérimentale. Son but n'est ni de collecter des dons ni de posséder une idée, mais de définir un standard ouvert permettant de transformer les "dusts" crypto (ces fractions de cryptomonnaies trop petites pour être déplacées sans que les frais réseau ne les annulent) en micro-dons traçables au profit d'ONG.
 
-DustEthic n’est plus une simple idée.  
-Le projet évolue vers un **standard ouvert et distribué** qui permet aux **donateurs**, **ONG** et **relayeurs** de collaborer sans intermédiaire, dans un cadre **transparent, éthique et traçable**.
+## Le problème
 
-Notre objectif :
-> Faire du Web3 un espace collectif, où chaque micro-transaction peut devenir une ressource utile pour des causes réelles.
+Envoyer de très petits montants en crypto n'est souvent pas viable : les frais de réseau (gas) dépassent la valeur envoyée. Ces fractions dorment dans les portefeuilles, inutilisées.
 
----
+## L'approche
 
-## 🧩 Le Standard DustEthic
+DustEthic définit un standard ouvert que les portefeuilles et les applications peuvent implémenter directement, sans intermédiaire collecteur et sans commission.
 
-Le *Standard DustEthic v1.1* définit un ensemble de règles techniques et éthiques que tout **relayeur** peut adopter :
+- 0 % de commission.
+- Aucun intermédiaire collecteur.
+- Aucun token, aucune garde de fonds.
+- Adoption directe par les portefeuilles qui choisissent de respecter le standard.
 
-- agrégation des micro-dons avant transfert (“Relayer Vaults”),
-- transparence publique sur les seuils et frais,
-- répartition équitable via micro-retenues automatiques,
-- compatibilité multi-chaînes (ETH, BTC, SOL, etc.),
-- modèle auto-financé et distribué.
+Le donateur choisit librement une ONG. L'ONG reçoit les dons sur ses adresses publiques vérifiées. Le standard décrit les règles techniques et éthiques communes, rien de plus.
 
-Chaque acteur reste autonome :
+## Phase 0 - Transparence radicale
 
-- **Les donateurs** choisissent librement une ONG partenaire.  
-- **Les ONG** reçoivent les dons nets sur leurs wallets vérifiés.  
-- **Les relayeurs** appliquent le standard et publient leurs rapports de transparence.
+Le projet est en phase initiale et expérimentale. Tout est public et discuté ouvertement : choix techniques, limites et incertitudes comprises. Aucune promesse de résultat, aucune levée de fonds, aucun produit commercial.
 
-> DustEthic ne collecte pas les dons – il définit **la règle du jeu** pour que chacun y trouve sa juste part.
+## État du projet
 
----
+Le site et la documentation sont en cours de reconstruction autour de ce standard ouvert. Le contenu évolue publiquement et reste incomplet à ce stade.
 
-## 💡 Idées à explorer
+## Contribuer
 
-Les pistes techniques et éthiques sont ouvertes à contribution :
+1. Lisez le fichier [CONTRIBUTING.md](CONTRIBUTING.md).
+2. Respectez le [CODE_OF_CONDUCT.md](CODE_OF_CONDUCT.md).
+3. Ouvrez une Issue ou une Discussion sur ce dépôt.
 
-- [Relayer Vaults – agrégation avant don](https://dustethic.org/idees-a-explorer)  
-- [ONG-first Vaults – traçabilité directe](https://dustethic.org/idees-a-explorer)  
-- [Standard DustEthic – modèle distribué et auto-financé](https://dustethic.org/standard-dustethic)
+## Licence
 
-Ces idées évoluent publiquement sur [dustethic.org](https://dustethic.org).  
-Toute proposition, maquette ou cas d’usage peut être soumise ici sur GitHub via **Discussions** ou **Issues**.
+Projet sous licence Apache 2.0 (voir [LICENSE](LICENSE)). Vous êtes libre d'utiliser, de modifier et de distribuer le standard, à condition d'en préserver l'esprit : neutralité, transparence et équité.
+
+## Ressources
+
+- Site officiel : https://dustethic.org
 
 ---
 
-## 🧠 Contribution
+## Open standard (EN)
 
-- 💬 **Discussions** : [Project Updates & Prototypes](https://github.com/DustEthic/dustethic/discussions)  
-- 🔧 **Issues** : retour sur l’implémentation du standard  
-- 📄 **Pull Requests** : contribution au code ou à la documentation  
+DustEthic is an open, non-profit and experimental initiative. It does not collect donations and does not own an idea: it defines an open standard to turn unused crypto "dusts" into traceable micro-donations for NGOs.
 
-### Pour participer :
-1. Lis le fichier [CONTRIBUTING.md](CONTRIBUTING.md)  
-2. Respecte notre [Code of Conduct](CODE_OF_CONDUCT.md)  
-3. Ouvre une discussion ou une idée à explorer  
+- 0% commission.
+- No collecting intermediary.
+- No token, no custody of funds.
+- Directly adopted by wallets that choose to follow the standard.
 
----
-
-## 📚 Licence
-
-Projet sous licence **Apache 2.0**.  
-Tu es libre d’utiliser, de modifier et de distribuer le standard, tant que la transparence et l’éthique sont préservées.
-
----
-
-## 🌐 Ressources officielles
-
-- Site officiel : [https://dustethic.org](https://dustethic.org)  
-- Standard : [https://dustethic.org/standard-dustethic](https://dustethic.org/standard-dustethic)  
-- Bluesky : [https://bsky.app/profile/dustethic.org](https://bsky.app/profile/dustethic.bsky.social)
-
----
-
-> “DustEthic n’est pas une organisation.  
-> C’est une méthode pour rendre les micro-dons justes, vérifiables et sans barrière.”
-
----
-
-## 🌱 Philosophie d’ouverture – DustEthic
-
-DustEthic est une initiative ouverte.  
-Son but n’est pas de posséder une idée, mais de la partager :  
-celle d’un standard éthique permettant de transformer les “dusts” crypto en micro-dons transparents au profit d’ONG.  
-
-Toute personne, entreprise ou organisation est libre de s’en inspirer, d’y contribuer ou de l’adapter,  
-à condition de respecter l’esprit d’origine : **neutralité, transparence et équité.**  
-
-DustEthic n’a ni token, ni collecte, ni but commercial.  
-C’est un cadre commun à construire, et une idée à faire vivre ensemble.  
-
----
-
-## 🌱 Philosophy of Openness – DustEthic (EN)
-
-DustEthic is an open initiative.  
-Its goal is not to own an idea but to share one:  
-a common, ethical standard to transform unused crypto “dusts” into transparent micro-donations for NGOs.  
-
-Anyone — individual, company, or organization — is free to use, adapt, or contribute to it,  
-as long as the original spirit is preserved: **neutrality, transparency, and fairness.**  
-
-DustEthic has no token, no fundraising, and no commercial intent.  
-It is a shared framework to explore and build together.
+Anyone is free to use, adapt or contribute, as long as the original spirit is preserved: neutrality, transparency and fairness.
