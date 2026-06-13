@@ -1,40 +1,45 @@
-# 🤝 Contribuer à DustEthic
+# Contribuer à l'implémentation DustEthic
 
-Merci de votre intérêt pour DustEthic ! 🙏  
-Ce projet est une **réflexion ouverte** visant à transformer les “dusts” cryptos en micro-dons transparents pour des ONG.  
-Toute contribution — technique, conceptuelle ou éditoriale — est la bienvenue.
+Ce dépôt est expérimental. Il doit produire une base claire, testable et vérifiable avant tout usage réel.
 
----
+## Avant de coder
 
-## 💡 Comment contribuer
+Lire d'abord :
 
-### 🧩 Proposer une idée
-- Rendez-vous sur la page [**Discussions**](https://dustethic.org/discussions/) ou l’onglet *Discussions* du dépôt.  
-- Publiez un sujet dans la catégorie **“Idées à explorer”**.  
-- Décrivez clairement votre idée, son objectif, et son lien avec DustEthic.
+- <https://github.com/DustEthic/docs/blob/main/STANDARD.md>
+- <https://github.com/DustEthic/docs/blob/main/TECHNICAL-WATCH.md>
+- <https://github.com/DustEthic/docs/blob/main/SECURITY.md>
 
-### 🐛 Signaler un problème
-- Ouvrez une **issue** sur GitHub.  
-- Décrivez le comportement observé et celui attendu.  
-- Ajoutez des captures ou exemples si possible.
+## Format attendu
 
-### 💻 Proposer du code
-1. Créez une **branche** (`feature/nom-fonction` ou `fix/description`).  
-2. Faites vos modifications.  
-3. Soumettez une **pull request** (PR) vers `main`.  
-4. Décrivez brièvement le changement et le “pourquoi”.
+Une contribution utile indique :
 
----
+- le problème traité ;
+- le flux concerné ;
+- les hypothèses ;
+- les risques ;
+- les tests prévus ;
+- les sources techniques.
 
-## 🧭 Principes
-- 🔍 Transparence : expliquez vos choix et sources.  
-- 💬 Bienveillance : critiquez les idées, pas les personnes.  
-- 📄 Lisibilité : un code/commentaire clair vaut mieux qu’un hack rapide.  
+## Règles
 
----
+- Ne pas présenter un exemple comme prêt pour la production sans audit.
+- Ne pas masquer les frais.
+- Ne pas imposer un fournisseur unique.
+- Ne pas affirmer une conformité juridique sans avis qualifié.
 
-## 📬 Contact technique
-Pour toute question : [github@dustethic.org](mailto:github@dustethic.org)
+## Tests attendus
 
-> Chaque idée compte.  
-> Chaque ligne de code aussi.
+Les tests devront couvrir :
+
+- création d'intention ;
+- expiration ou révocation ;
+- agrégation par actif ;
+- calcul des frais ;
+- production de preuve ;
+- cas d'échec ;
+- actifs refusés.
+
+## Contact
+
+Utilise les issues GitHub pour les sujets publics. Pour un sujet de sécurité, consulte `SECURITY.md`.
